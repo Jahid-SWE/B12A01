@@ -36,12 +36,16 @@ nav h1{
 /* banner section */
 .banner{
     width: 905px;
-    height: 227px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 100px;
 }
-.babner-title{
+.banner-title{
     font-size: 65px;
-    font-weight: 800;
+    font-weight: 500;
+    color: #252432;
 
+}
+.banner-btn{
+    margin-bottom: 152px;
 }
