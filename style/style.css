@@ -46,7 +46,7 @@ header{
     background-size: cover;
     background-position: center;
 }
-/* Navbar section */
+/* start Navbar section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,9 @@ nav h1{
     
 }
 
-/* banner section */
+/* end Navbar section */
+
+/* start banner section */
 .banner{
     width: 905px;
     text-align: center;
@@ -80,7 +82,9 @@ nav h1{
     margin-bottom: 152px;
 }
 
-/* Action section */
+/* end banner section */
+
+/* start Action section */
 
 .action-section{
     display: flex;
@@ -108,8 +112,9 @@ nav h1{
 .right-side img{
     border-radius: 30px;
 }
+/* end Action section */
 
-/* productive section */
+/* start productive section */
 .productive-section{
     background-color: #e5e7ff;
     text-align: center;
@@ -144,7 +149,9 @@ nav h1{
     color:#4E47FF ;
    
 }
-/* focus section */
+/* end productive section */
+
+/* start focus section */
 
 .focus-container{
     background-color: #ffffff;
@@ -172,46 +179,7 @@ nav h1{
     margin-bottom: 50px;
     
 }
-/* footer Section */
-footer {
-    margin-top: 60px;
-    background: #fff;
-}
-.footer-container{
-    
-    width: 531px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 104px 0;
-
-
-}
-.web-name{
-    font-size: 100px;
-    font-weight: 900;
-    color: #4E47FF;
-    
-}
-.web-subtitle{
-    color: #8987A1;
-    font-family: raleway;
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    
-
-}
-.link-items{
-    display: flex;
-    justify-content: space-around;
-}
-.link-container ul li{
-    list-style: none;
-}
-.link-container ul li a{
-    text-decoration: none;
-    color: #8987A1;
-}
+/* end focus section */
 
 
 /* start the feedback section */
@@ -283,6 +251,7 @@ footer {
     gap: 115px;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 116px;
 }
 .left_content .heading {
     font-size: 65px;
@@ -318,3 +287,44 @@ footer {
     width: 100%;
 }
 /* end the contact section */
+
+/* start footer Section */
+footer {
+    margin-top: 60px;
+    background: #fff;
+}
+.footer-container{
+    
+    width: 531px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 104px 0;
+
+}
+.web-name{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    
+}
+.web-subtitle{
+    color: #8987A1;
+    font-family: raleway;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+
+}
+.link-items{
+    display: flex;
+    justify-content: space-around;
+}
+.link-container ul li{
+    list-style: none;
+}
+.link-container ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+/* end footer Section */
